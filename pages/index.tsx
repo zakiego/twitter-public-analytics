@@ -107,6 +107,7 @@ const Index = () => {
 									<AtSymbolIcon className="h-5 w-5" />
 								</span>
 								<input
+									placeholder="username"
 									onChange={inputHandler}
 									type="text"
 									className=" transition-all duration-300 focus:ring-2  ring-[#2D5378] ring-opacity-50 rounded-2xl text-base px-3 py-3 relative border-2 border-tepi outline-none  w-full pl-10"
