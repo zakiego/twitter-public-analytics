@@ -96,20 +96,20 @@ const Index = () => {
 				<title>Pengikut Pertama</title>
 			</Head>
 			<div className="bg-soft min-h-screen relative text-primary">
-				<div className="max-w-3xl mx-auto">
-					<div className="max-w-4xl  mx-auto bg-gradient-to-bl from-[#2D5378] to-[#508698] h-36 absolute inset-0 rounded-b-3xl" />
+				<div className="md:max-w-xl lg:max-w-3xl mx-auto">
+					<div className="md:max-w- max-w-2xl lg:max-w-4xl  mx-auto bg-gradient-to-bl from-[#2D5378] to-[#508698] h-36 absolute inset-0 rounded-b-3xl" />
 					<div className="pt-20 relative flex flex-col px-7">
 						{/* head */}
 						<div className="bg-white py-7 rounded-2xl text-center shadow-blues ">
 							<div className="text-2xl font-semibold">Pengikut Pertama</div>
-							<div className="mt-8 relative w-full flex-wrap items-stretch mb-3 px-11">
+							<div className="mt-8 relative flex-wrap items-stretch mb-3 px-11 max-w-sm mx-auto">
 								<span className="z-10 h-full text-center absolute flex items-center justify-center w-8 pl-3 py-3">
 									<AtSymbolIcon className="h-5 w-5" />
 								</span>
 								<input
 									onChange={inputHandler}
 									type="text"
-									className="transition-all duration-300 focus:ring-2  ring-[#2D5378] ring-opacity-50 rounded-2xl text-base px-3 py-3 relative border-2 border-tepi outline-none  w-full pl-10"
+									className=" transition-all duration-300 focus:ring-2  ring-[#2D5378] ring-opacity-50 rounded-2xl text-base px-3 py-3 relative border-2 border-tepi outline-none  w-full pl-10"
 								/>
 							</div>
 							<button
