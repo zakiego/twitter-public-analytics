@@ -115,7 +115,7 @@ const Index = () => {
 							</div>
 							<button
 								onClick={getData}
-								className="mt-2 bg-primary text-white font-semibold text-xs px-5 py-2 rounded-lg shadow-blues opacity-80 hover:opacity-100 transition-all"
+								className="outline-none mt-2 bg-primary text-white font-semibold text-xs px-5 py-2 rounded-lg shadow-blues opacity-80 hover:opacity-100 transition-all"
 							>
 								Lihat
 							</button>
